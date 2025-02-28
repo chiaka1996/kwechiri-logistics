@@ -5,7 +5,7 @@
 html{
   font-size: 62.5%;
   font-weight: 400;
-  /* color: #dfdede; */
+  /* color: #051d19; */
 }
 
 .container{
@@ -18,4 +18,12 @@ html{
 .gridStyle{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+/* our service background */
+.ourService_section {
+  background: linear-gradient(rgba(5, 29, 25, 0.8), rgba(5, 29, 25, 0.8)), url('/images/background-2.png');
+  background-size: cover;
+  background-position: center;
+
 }

@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 import Image from "next/image";
-import { Navigation } from "./components";
+import { Navigation, About, Service} from "./components";
 
 export default function Home() {
  
@@ -20,8 +20,10 @@ export default function Home() {
           <button className="h-[6rem] px-[2rem] rounded-[50px] bg-primary outline-none text-[1.6rem] mt-[2rem]">Request a Qoute <span className="pl-[1rem]">&#x2B9E;</span> </button>
           </div>
         </div>
-       
       </section>
+
+      <About />
+      <Service />
     </main>
   );
 }
