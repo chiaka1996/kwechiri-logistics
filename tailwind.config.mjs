@@ -9,10 +9,10 @@ export default {
     extend: {
       colors: {
         primary: "#f56f0f",
+        primary_background: "#f1f8f7",
+        text_color: "#606161",
         primary_color: "#f56f0f",
-        secondary_color: "#051d19",
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary_color: "#1c3f39",
       },
     },
   },

@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html{
   font-size: 62.5%;
   font-weight: 400;
-  /* color: #051d19; */
+  /* color: #07847f80; */
 }
 
 .container{
@@ -22,8 +23,9 @@ html{
 
 /* our service background */
 .ourService_section {
-  background: linear-gradient(rgba(5, 29, 25, 0.8), rgba(5, 29, 25, 0.8)), url('/images/background-2.png');
+  background: linear-gradient(rgb(226, 248, 244,0.5), rgb(226, 248, 244,0.5)), url('/images/background-2.png');
   background-size: cover;
   background-position: center;
 
 }
+
