@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-      <section className="container gridStyle py-[15rem] gap-[5rem]"> 
+      <section className="container gridStyle py-[15rem] gap-[5rem]" id="about"> 
        
         <div className="max-w-[70rem] h-[50rem] rounded-[20px]">
             <div className="relative w-full h-full rounded-[20px]">

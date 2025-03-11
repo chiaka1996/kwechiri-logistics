@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function WorkProcess() {
     return (
-        <section className="py-[10rem] text-[1.6rem] bg-[#f1f8f7]">
+        <section className="py-[10rem] text-[1.6rem] bg-[#f1f8f7]" id="work_process">
             <div className="bg-primary_color mb-[1rem] rounded-[10px] text-[#fff] font-[500] w-[18rem] h-[45px] px-[2rem] mx-auto flex items-center justify-center">WORK PROCESS</div>
-            <h2 className="text-secondary_color text-[4.4rem] text-center font-[700]">We always follow the best ways</h2>
+            <h2 className="text-secondary_color text-[4.4rem] text-center font-[700] leading-[5.5rem]">We always follow the best practices</h2>
             <h3 className="max-w-[50rem] mx-auto text-center mb-[3rem] text-[1.8rem]">Here’s how we get your shipments delivered with precision and care.</h3>
             <div className="container gridStyle gap-[3rem]">
                 {/* work grid1 */}

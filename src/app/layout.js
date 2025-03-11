@@ -1,6 +1,6 @@
 // import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
-import { Poppins } from "next/font/google";
+import { Poppins} from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -10,6 +10,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+
 export const metadata = {
   title: "kwechiri Logistics",
   description: "Logistics company in lagos, involved in air freight, landing freight, protocol service, ride hailing",
@@ -17,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         {/* Google Material Icons */}
         <link

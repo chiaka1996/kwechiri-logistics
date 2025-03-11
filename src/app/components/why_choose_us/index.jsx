@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <section className="py-[10rem] text-[1.6rem]">
             <div className="bg-primary_color mb-[1rem] rounded-[10px] text-[#fff] font-[500] w-[18rem] h-[45px] px-[2rem] mx-auto flex items-center justify-center">WHY CHOOSE US</div>
-            <h2 className="text-secondary_color text-[4.4rem] text-center font-[700]">Why we are considered the best</h2>
+            <h2 className="text-secondary_color text-[4.4rem] text-center font-[700] leading-[5.5rem]">Why we are considered the best</h2>
             <h3 className="max-w-[50rem] mx-auto text-center mb-[3rem] text-[1.8rem]">When it comes to logistics; reliability, efficiency, and customer satisfaction are our top priorities.</h3>
             <div className="container">
                 <div className="flex w-full gap-[5rem]">
