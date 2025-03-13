@@ -8,8 +8,8 @@ export default function Home() {
  
   return (
     <main className="" >
-      <Navigation />
-      <section className="W-full h-screen overflow-x-hidden relative mt-[-10rem]" id="home">
+      <Navigation className="fixed top-0 left-0 w-full" />
+      <section className="w-full h-screen overflow-x-hidden relative mt-[-10rem]" id="home">
         <div className="relative w-full h-screen bg-[#000]">
           <Image src="/images/banner.png" fill={true} alt="kwechiri logistics banner" className="opacity-40" />
         </div>

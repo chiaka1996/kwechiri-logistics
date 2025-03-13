@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
 
                 <div className="">
-                    <div className="relative w-[50rem] min-h-[60rem]">
+                    <div className="relative w-[50rem] h-[60rem]">
                        <Image src="/images/why-choose-us.png" fill={true} alt="why choose kwechiri logistics" className="rounded-[20px]" />
                     </div>
                 </div>
