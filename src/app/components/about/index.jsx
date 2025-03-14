@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-      <section className="container gridStyle py-[15rem] gap-[5rem]" id="about"> 
+      <section className="container gridStyle py-[15rem] max-sm:py-[5rem] gap-[5rem] max-sm:gap-[1.5rem]" id="about"> 
        
-        <div className="max-w-[70rem] h-[50rem] rounded-[20px]">
+        <div className="max-w-[70rem] h-[50rem] max-sm:h-[30rem] rounded-[20px]">
             <div className="relative w-full h-full rounded-[20px]">
             <Image src="/images/about-image.png" fill={true} alt="kwechiri logistics banner" className="rounded-[20px]" />
             </div>
         </div>
 
-        <div className="flex flex-col gap-y-[1.5rem] text-[1.7rem] text-[#606161] leading-[3rem] font-[500]">
-           <button className="bg-primary_color rounded-[10px] text-[#fff] font-[500] w-[15rem] h-[45px] px-[2rem]">WHO WE ARE</button>        
+        <div className="flex flex-col gap-y-[1.5rem] max-sm:gap-y-[1.2rem] text-[1.7rem] max-sm:text-mobileText text-[#606161] leading-[3rem] font-[500]">
+           <button className="bg-primary_color rounded-[10px] text-[#fff] font-[500] w-[15rem] max-sm:w-[13rem] h-[45px] px-[2rem]">WHO WE ARE</button>        
             <p>
             We are a leading logistics and mobility solutions provider,
             offering seamless transportation and delivery services tailored to your needs. From ticketing and car-hailing to door-to-door delivery, 
@@ -22,7 +22,7 @@ export default function Home() {
             hassle-free logistics network. Whether you need to book a ride, send a package, or transport goods globally, we’ve got you covered!
             </p>
 
-            <ul className="flex flex-col gap-y-[1.2rem] text-secondary_color text-[1.8rem] font-[600] mt-[1rem]">
+            <ul className="flex flex-col gap-y-[1.2rem] max-sm:gap-y-[1rem] text-secondary_color text-[1.8rem] max-sm:text-[1.5rem] font-[600] mt-[1rem]">
                 <li className="flex gap-x-[1rem] items-center">
                 <span className="material-symbols-outlined">help</span>
                 <span>Free Travel & Airline Ticketing Consultation</span>

@@ -14,6 +14,10 @@ export default {
         primary_color: "#f56f0f",
         secondary_color: "#1c3f39",
       },
+      fontSize: {
+        mobileText: "1.4rem",
+        desktopText: "1.6rem"
+      },
     },
   },
   plugins: [],
